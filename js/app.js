@@ -39,3 +39,22 @@ fetch("data/recall.json")
       }
     };
   });
+
+
+const examDate = new Date("2026-02-27T10:00:00").getTime();
+
+setInterval(() => {
+  const now = Date.now();
+  const diff = examDate - now;
+
+  if (diff <= 0) {
+    document.getElementById("countdown").innerText = "EXAM TIME ";
+    return;
+  }
+
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+
+  document.getElementById("countdown").innerText =
+    `⏱ ${hours}h ${minutes}m left , You got this !`;
+}, 1000);
