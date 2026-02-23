@@ -1,0 +1,66 @@
+{
+  "chapter1": {
+    "title": "What is Psychology",
+    "questions": [
+      "Define psychology.",
+      "Explain the goals of psychology.",
+      "Describe schools of thought in psychology."
+    ]
+  },
+  "chapter2": {
+    "title": "Methods of Enquiry in Psychology",
+    "questions": [
+      "Explain observation method.",
+      "What is experimental method?",
+      "Discuss limitations of psychological enquiry."
+    ]
+  },
+  "chapter3": {
+    "title": "Human Development",
+    "questions": [
+      "Define development.",
+      "Explain stages of development.",
+      "Nature vs nurture debate."
+    ]
+  },
+  "chapter4": {
+    "title": "Sensory, Attentional and Perceptual Processes",
+    "questions": [
+      "What is sensation?",
+      "Explain attention.",
+      "Define perception with example."
+    ]
+  },
+  "chapter5": {
+    "title": "Learning",
+    "questions": [
+      "Define learning.",
+      "Classical vs operant conditioning.",
+      "Insight learning."
+    ]
+  },
+  "chapter6": {
+    "title": "Human Memory",
+    "questions": [
+      "Define memory.",
+      "Explain stages of memory.",
+      "Types of memory."
+    ]
+  },
+  "chapter7": {
+    "title": "Thinking",
+    "questions": [
+      "What is thinking?",
+      "Types of thinking.",
+      "Problem solving."
+    ]
+  },
+  "chapter8": {
+    "title": "Motivation and Emotion",
+    "questions": [
+      "Define motivation.",
+      "Types of motivation.",
+      "Theories of emotion."
+    ]
+  }
+}
