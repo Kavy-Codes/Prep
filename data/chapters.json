@@ -1,28 +1,159 @@
-[
-  {
+{
+  "chapter1": {
     "title": "What is Psychology",
-    "definition": "Psychology is the scientific study of behaviour and mental processes.",
-    "points": ["Description", "Explanation", "Prediction", "Control"],
+    "definitions": [
+      "Psychology is the scientific study of behaviour and mental processes."
+    ],
+    "points": [
+      "Description",
+      "Explanation",
+      "Prediction",
+      "Control"
+    ],
     "questions": [
       "Define psychology.",
-      "Explain the goals of psychology."
-    ]
+      "Explain the goals of psychology.",
+      "Describe schools of thought."
+    ],
+    "diagram": "Flowchart showing goals of psychology"
   },
-  {
-    "title": "Methods of Enquiry",
-    "definition": "Methods used to study behaviour scientifically.",
-    "points": ["Observation", "Experimental", "Survey", "Case Study"],
+
+  "chapter2": {
+    "title": "Methods of Enquiry in Psychology",
+    "definitions": [
+      "Methods of enquiry in psychology are systematic procedures used to study behaviour and mental processes."
+    ],
+    "points": [
+      "Observation method",
+      "Experimental method",
+      "Survey method",
+      "Case study method",
+      "Psychological testing"
+    ],
     "questions": [
-      "Explain experimental method.",
-      "What are ethical issues in research?"
-    ]
+      "Explain the experimental method.",
+      "What are the ethical issues in psychological research?",
+      "Describe observation method."
+    ],
+    "diagram": "Diagram showing control and experimental group"
   },
-  {
+
+  "chapter3": {
+    "title": "Human Development",
+    "definitions": [
+      "Human development refers to the pattern of change from conception to old age."
+    ],
+    "points": [
+      "Prenatal stage",
+      "Infancy",
+      "Childhood",
+      "Adolescence",
+      "Adulthood",
+      "Old age"
+    ],
+    "questions": [
+      "Explain stages of human development.",
+      "Describe Erikson’s theory of psychosocial development.",
+      "What is adolescence?"
+    ],
+    "diagram": "Table showing stages of human development"
+  },
+
+  "chapter4": {
     "title": "Learning",
-    "definition": "Learning is a relatively permanent change in behaviour due to experience.",
-    "points": ["Classical Conditioning", "Operant Conditioning", "Observational Learning"],
+    "definitions": [
+      "Learning is a relatively permanent change in behaviour as a result of experience."
+    ],
+    "points": [
+      "Classical conditioning (Pavlov)",
+      "Operant conditioning (Skinner)",
+      "Observational learning (Bandura)"
+    ],
     "questions": [
-      "Explain types of learning."
-    ]
+      "Explain classical conditioning.",
+      "Differentiate between classical and operant conditioning.",
+      "Explain observational learning."
+    ],
+    "diagram": "Diagram of Pavlov’s experiment"
+  },
+
+  "chapter5": {
+    "title": "Human Memory",
+    "definitions": [
+      "Memory is the ability to retain and recall information over time."
+    ],
+    "points": [
+      "Encoding",
+      "Storage",
+      "Retrieval",
+      "Sensory memory",
+      "Short-term memory",
+      "Long-term memory"
+    ],
+    "questions": [
+      "Explain the process of memory.",
+      "Describe types of memory.",
+      "What is forgetting?"
+    ],
+    "diagram": "Information processing model of memory"
+  },
+
+  "chapter6": {
+    "title": "Thinking",
+    "definitions": [
+      "Thinking is a mental process involving manipulation of information to solve problems."
+    ],
+    "points": [
+      "Concept formation",
+      "Reasoning",
+      "Problem-solving",
+      "Decision making"
+    ],
+    "questions": [
+      "Explain problem-solving.",
+      "What are concepts?",
+      "Describe decision-making process."
+    ],
+    "diagram": "Flowchart of problem-solving steps"
+  },
+
+  "chapter7": {
+    "title": "Motivation and Emotion",
+    "definitions": [
+      "Motivation is the process that initiates, guides and sustains goal-directed behaviour."
+    ],
+    "points": [
+      "Biological motives",
+      "Psychosocial motives",
+      "Emotion components",
+      "James-Lange theory",
+      "Cannon-Bard theory"
+    ],
+    "questions": [
+      "Explain motivation.",
+      "Describe theories of emotion.",
+      "Differentiate between motives and emotions."
+    ],
+    "diagram": "Diagram showing components of emotion"
+  },
+
+  "chapter8": {
+    "title": "Personality",
+    "definitions": [
+      "Personality refers to unique and relatively stable patterns of behaviour, thoughts and emotions."
+    ],
+    "points": [
+      "Type approach",
+      "Trait approach",
+      "Psychodynamic approach",
+      "Humanistic approach",
+      "Behavioural approach"
+    ],
+    "questions": [
+      "Explain trait theory of personality.",
+      "Describe Freud’s theory of personality.",
+      "What is personality?"
+    ],
+    "diagram": "Structure of personality (Id, Ego, Superego)"
   }
-]
+}
