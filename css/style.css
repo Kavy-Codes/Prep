@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0d0e10;
+  color: #e6e6e6;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+p {
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.card {
+  background: #17181c;
+  border-radius: 14px;
+  padding: 16px;
+  margin: 14px 0;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 12px;
+  background: #23242a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:active {
+  background: #2f3139;
+}
+
+.small {
+  font-size: 13px;
+  color: #8f8f8f;
+}

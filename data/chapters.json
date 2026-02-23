@@ -1,0 +1,28 @@
+[
+  {
+    "title": "What is Psychology",
+    "definition": "Psychology is the scientific study of behaviour and mental processes.",
+    "points": ["Description", "Explanation", "Prediction", "Control"],
+    "questions": [
+      "Define psychology.",
+      "Explain the goals of psychology."
+    ]
+  },
+  {
+    "title": "Methods of Enquiry",
+    "definition": "Methods used to study behaviour scientifically.",
+    "points": ["Observation", "Experimental", "Survey", "Case Study"],
+    "questions": [
+      "Explain experimental method.",
+      "What are ethical issues in research?"
+    ]
+  },
+  {
+    "title": "Learning",
+    "definition": "Learning is a relatively permanent change in behaviour due to experience.",
+    "points": ["Classical Conditioning", "Operant Conditioning", "Observational Learning"],
+    "questions": [
+      "Explain types of learning."
+    ]
+  }
+]
