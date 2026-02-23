@@ -51,3 +51,10 @@ p {
   font-size: 13px;
   color: #8f8f8f;
 }
+
+#countdown {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffb3c6;
+}
