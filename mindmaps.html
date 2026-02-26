@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Mind Maps</title>
-  <link rel="stylesheet" href="mindmaps.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Mindmap CSS -->
+  <link rel="stylesheet" href="css/mindmaps.css">
+
+  <!-- JS -->
+  <script defer src="js/mindmaps.js"></script>
 </head>
 <body>
 
-<header>
-  <h1>🧠 Mind Maps</h1>
-  <p>One chapter. One map. Full clarity.</p>
-</header>
+<div class="container">
+  <h2>🧠 Mind Maps</h2>
+  <p class="small">Tap a chapter to view full-resolution mind map</p>
 
-<section class="grid">
-  <img src="/mindmaps/ch1.png" alt="What is Psychology">
-  <img src="/mindmaps/ch02-schools.png" alt="Schools of Thought">
-  <img src="/mindmaps/ch03-branches.png" alt="Branches of Psychology">
-</section>
+  <div class="mindmap-grid">
+    <!-- ONE IMAGE PER CHAPTER -->
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch1.png')">
+      <span>What is Psychology</span>
+    </div>
 
-<!-- Fullscreen -->
-<div id="viewer" class="hidden">
-  <img id="viewerImg">
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch2.png')">
+      <span>Methods of Enquiry</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch3.png')">
+      <span>Human Development</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch4.png')">
+      <span>Learning</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch5.png')">
+      <span>Memory</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch6.png')">
+      <span>Thinking</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch7.png')">
+      <span>Motivation & Emotion</span>
+    </div>
+
+    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch8.png')">
+      <span>Personality</span>
+    </div>
+  </div>
 </div>
 
-<script src="mindmaps.js"></script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mind Maps</title>
-  <link rel="stylesheet" href="mindmaps.css">
-</head>
-<body>
-
-<header>
-  <h1>🧠 Mind Maps</h1>
-  <p>One chapter. One map. Full clarity.</p>
-</header>
-
-<section class="grid">
-  <img src="/mindmaps/ch01-what-is-psychology.png" alt="What is Psychology">
-  <img src="/mindmaps/ch02-schools.png" alt="Schools of Thought">
-  <img src="/mindmaps/ch03-branches.png" alt="Branches of Psychology">
-</section>
-
-<!-- Fullscreen -->
-<div id="viewer" class="hidden">
-  <img id="viewerImg">
+<!-- FULLSCREEN VIEWER -->
+<div id="mindmapViewer" onclick="closeMindmap()">
+  <img id="mindmapImage" alt="Mind Map">
 </div>
 
-<script src="mindmaps.js"></script>
 </body>
 </html>
