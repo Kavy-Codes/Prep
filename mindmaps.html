@@ -1,63 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Mind Maps</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Main CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- Mindmap CSS -->
   <link rel="stylesheet" href="css/mindmaps.css">
-
-  <!-- JS -->
   <script defer src="js/mindmaps.js"></script>
 </head>
 <body>
 
 <div class="container">
+
   <h2>🧠 Mind Maps</h2>
-  <p class="small">Tap a chapter to view full-resolution mind map</p>
+  <p class="small">Select a chapter</p>
 
-  <div class="mindmap-grid">
-    <!-- ONE IMAGE PER CHAPTER -->
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch1.png')">
-      <span>What is Psychology</span>
-    </div>
+  <!-- CHAPTER LIST -->
+  <div id="mindmapList" class="mindmap-list"></div>
 
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch2.png')">
-      <span>Methods of Enquiry</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch3.png')">
-      <span>Human Development</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch4.png')">
-      <span>Learning</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch5.png')">
-      <span>Memory</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch6.png')">
-      <span>Thinking</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch7.png')">
-      <span>Motivation & Emotion</span>
-    </div>
-
-    <div class="mindmap-card" onclick="openMindmap('mindmaps/ch8.png')">
-      <span>Personality</span>
-    </div>
+  <!-- IMAGE VIEW -->
+  <div id="mindmapViewer" class="mindmap-viewer hidden">
+    <button class="back-btn" onclick="closeMindmap()">← Back</button>
+    <img id="mindmapImage" alt="Mind Map">
   </div>
-</div>
 
-<!-- FULLSCREEN VIEWER -->
-<div id="mindmapViewer" onclick="closeMindmap()">
-  <img id="mindmapImage" alt="Mind Map">
 </div>
 
 </body>
