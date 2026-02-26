@@ -1,56 +1,77 @@
-body {
-  margin: 0;
-  background: #0a0a0a;
-  color: #eaeaea;
-  font-family: system-ui, sans-serif;
-}
-
-header {
-  text-align: center;
-  padding: 16px;
-}
-
-.grid {
+/* =========================
+   GRID
+========================= */
+.mindmap-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 14px;
-  padding: 16px;
+  margin-top: 16px;
 }
 
-/* Thumbnails */
-.grid img {
-  width: 100%;
-  height: auto;
-  cursor: zoom-in;
-  border-radius: 10px;
-  background: #111;
-  transition: transform .2s ease;
+/* =========================
+   CARD
+========================= */
+.mindmap-card {
+  background: #141416;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,.08);
+  transition: transform .15s ease, background .15s ease;
 }
 
-.grid img:hover {
-  transform: scale(1.02);
+.mindmap-card span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #f1f1f1;
 }
 
-/* Fullscreen viewer */
-#viewer {
+.mindmap-card:active {
+  transform: scale(0.96);
+  background: #1c1c1f;
+}
+
+/* =========================
+   FULLSCREEN VIEWER
+========================= */
+#mindmapViewer {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.97);
-  display: flex;
-  justify-content: center;
+  background: rgba(0,0,0,0.98);
+  display: none;
   align-items: center;
-  z-index: 999;
+  justify-content: center;
+  z-index: 99999;
+  overflow: auto;
 }
 
-#viewer img {
-  max-width: none;      /* CRITICAL */
-  max-height: none;     /* CRITICAL */
+/* ACTIVE */
+#mindmapViewer.active {
+  display: flex;
+}
+
+/* IMAGE – NO QUALITY LOSS */
+#mindmapImage {
+  max-width: none;
   width: auto;
   height: auto;
-  cursor: zoom-out;
+  max-height: none;
+  display: block;
+
+  /* VERY IMPORTANT */
+  image-rendering: auto;
+  transform-origin: center center;
 }
 
-/* Hide */
-.hidden {
-  display: none;
+/* CLOSE HINT */
+#mindmapViewer::after {
+  content: "Tap anywhere to close";
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  opacity: 0.5;
+  color: white;
 }
