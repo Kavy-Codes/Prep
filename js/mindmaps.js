@@ -2,7 +2,7 @@ const chapters = [
   { title: "What is Psychology", img: "mindmaps/ch1.png" },
   { title: "Methods of Enquiry", img: "mindmaps/ch2.png" },
   { title: "Human Development", img: "mindmaps/ch3.png" },
-  { title: "Learning", img: "mindmaps/ch4.png" },
+  { title: "Sensory, Attentional and Perceptual Processes", img: "mindmaps/ch4.png" },
   { title: "Learning", img: "mindmaps/ch5.png" },
   { title: "Memory", img: "mindmaps/ch6.png" },
   { title: "Thinking", img: "mindmaps/ch7.png" },
