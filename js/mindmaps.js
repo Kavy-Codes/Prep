@@ -3,10 +3,10 @@ const chapters = [
   { title: "Methods of Enquiry", img: "mindmaps/ch2.png" },
   { title: "Human Development", img: "mindmaps/ch3.png" },
   { title: "Learning", img: "mindmaps/ch4.png" },
-  { title: "Memory", img: "mindmaps/ch5.png" },
-  { title: "Thinking", img: "mindmaps/ch6.png" },
-  { title: "Motivation & Emotion", img: "mindmaps/ch7.png" },
-  { title: "Personality", img: "mindmaps/ch8.png" }
+  { title: "Learning", img: "mindmaps/ch5.png" },
+  { title: "Memory", img: "mindmaps/ch6.png" },
+  { title: "Thinking", img: "mindmaps/ch7.png" },
+  { title: "Motivation & Emotion", img: "mindmaps/ch8.png" },
 ];
 
 const list = document.getElementById("mindmapList");
