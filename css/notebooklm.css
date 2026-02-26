@@ -1,0 +1,23 @@
+.lm-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.lm-item {
+  display: block;
+  padding: 16px;
+  border-radius: 14px;
+  background: #151515;
+  border: 1px solid rgba(255,255,255,.08);
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: transform .15s ease, background .15s ease;
+}
+
+.lm-item:active {
+  transform: scale(.97);
+  background: #1f1f1f;
+}
